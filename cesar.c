@@ -6,7 +6,7 @@
 
 int main(int argc,char *argv[]){
 
-    const int k = atoi(argv[1]);    ///Aqui podemos el argumento, es decir la llave de encriptacion
+    const int k = atoi(argv[1]);    ///Aqui ponemos el argumento, es decir la llave de encriptacion
 
     string s = get_string("plaintext: ");
     printf("ciphertext: ");
